@@ -6,22 +6,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
+    android:background="#ffbf8c"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="343dp"
-        android:layout_height="223dp"
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="263dp"
+        android:layout_height="103dp"
+        android:backgroundTint="#A20707"
+        android:text="Strawberry"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:icon="@drawable/strawberrybutton"
+        app:iconPadding="8dp"
+        app:iconSize="40dp"
+        app:iconTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197"
-        app:srcCompat="@drawable/fruitbowl" />
+        app:layout_constraintVertical_bias="0.54" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="263dp"
+        android:layout_height="103dp"
+        android:backgroundTint="#FF9800"
+        android:text="Orange"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:icon="@drawable/orangebutton"
+        app:iconPadding="8dp"
+        app:iconSize="40dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="265dp"
+        android:layout_height="108dp"
+        android:backgroundTint="#EBDA2A"
+        android:text="Banana"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:icon="@drawable/bananabutton"
+        app:iconPadding="8dp"
+        app:iconSize="40dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="385dp"
         android:layout_height="77dp"
         android:fontFamily="casual"
@@ -35,5 +83,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.082" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="343dp"
+        android:layout_height="223dp"
+        android:contentDescription="Picture of a bowl of fruit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"
+        app:srcCompat="@drawable/fruitbowl" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="385dp"
+        android:layout_height="77dp"
+        android:fontFamily="casual"
+        android:text="Select a Fruit to view"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
