@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonStrawberry"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="263dp"
         android:layout_height="103dp"
@@ -24,15 +24,17 @@
         app:iconTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54" />
+        app:layout_constraintVertical_bias="0.56" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonOrange"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="263dp"
         android:layout_height="103dp"
+        android:layout_marginBottom="232dp"
         android:backgroundTint="#FF9800"
         android:text="Orange"
         android:textAlignment="center"
@@ -45,14 +47,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonStrawberry"
+        app:layout_constraintVertical_bias="0.637" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonBanana"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="265dp"
         android:layout_height="108dp"
+        android:layout_marginTop="51dp"
         android:backgroundTint="#EBDA2A"
         android:text="Banana"
         android:textAlignment="center"
@@ -63,10 +66,10 @@
         app:iconTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.879" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonOrange"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView3"
