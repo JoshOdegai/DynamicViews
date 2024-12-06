@@ -19,7 +19,7 @@
             android:name=".Orange"
             android:exported="false" />
         <activity
-            android:name=".strawberry"
+            android:name=".Strawberry"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

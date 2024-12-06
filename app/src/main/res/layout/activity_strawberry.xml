@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ff0066"
-    tools:context=".strawberry">
+    tools:context=".Strawberry">
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="397dp"
-        android:layout_height="606dp"
+        android:layout_width="363dp"
+        android:layout_height="568dp"
         android:src="@drawable/strawberries"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,4 +35,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.069" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="146dp"
+        android:layout_height="82dp"
+        android:text="Home"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
         val strawBtn = findViewById<Button>(R.id.buttonStrawberry)
         strawBtn.setOnClickListener(View.OnClickListener {
             val intent = Intent(this,Strawberry::class.java)
