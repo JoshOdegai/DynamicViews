@@ -10,27 +10,6 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonBanana"
-        style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="263dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="50dp"
-        android:backgroundTint="#EBDA2A"
-        android:text="Banana"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:icon="@drawable/bananabutton"
-        app:iconPadding="8dp"
-        app:iconSize="40dp"
-        app:iconTint="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonOrange" />
-
-    <Button
         android:id="@+id/buttonStrawberry"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="263dp"
@@ -47,18 +26,39 @@
         app:iconTint="@null"
         app:layout_constraintBottom_toTopOf="@+id/buttonOrange"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBanana"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="263dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#EBDA2A"
+        android:text="Banana"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:icon="@drawable/bananabutton"
+        app:iconPadding="8dp"
+        app:iconSize="40dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOrange" />
 
     <Button
         android:id="@+id/buttonOrange"
         style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="263dp"
         android:layout_height="103dp"
-        android:backgroundTint="#FF9800"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
+        android:backgroundTint="#FF9800"
         android:text="Orange"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -68,7 +68,7 @@
         app:iconTint="@null"
         app:layout_constraintBottom_toTopOf="@+id/buttonBanana"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonStrawberry"
         app:layout_constraintVertical_bias="0.442" />
@@ -87,12 +87,12 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="343dp"
-        android:layout_height="223dp"
+        android:layout_width="943dp"
+        android:layout_height="279dp"
         android:contentDescription="Picture of a bowl of fruit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,8 +115,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

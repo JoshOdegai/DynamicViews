@@ -13,15 +13,6 @@
         android:theme="@style/Theme.DynamicViews"
         tools:targetApi="31">
         <activity
-            android:name=".Banana"
-            android:exported="false" />
-        <activity
-            android:name=".Orange"
-            android:exported="false" />
-        <activity
-            android:name=".Strawberry"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
